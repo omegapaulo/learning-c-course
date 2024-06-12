@@ -30,3 +30,16 @@ C programming language is known for its simplicity and efficiency. It is the bes
 - Programs
 - Miscellaneous
 - C Interview Questions
+
+## C Basics
+
+- C Language Introduction
+- Features of C Programming Language
+- C Programming Language Standard
+- Setting Up C Development Environment
+- C Hello World Program
+- Compiling a C Program: Behind the Scenes
+- C Comments
+- Tokens in C
+- C Identifiers
+- Keywords in C
