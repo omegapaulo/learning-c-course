@@ -10,7 +10,7 @@ C is a general-purpose, procedural, high-level programming language used in the 
 C is one of the most widely used programming languages.
 C programming language is known for its simplicity and efficiency. It is the best choice to start with programming as it gives you a foundational understanding of programming.
 
-## Table of content.
+## Table of content
 
 - Basics
 - Variables and Constants
