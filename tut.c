@@ -5,6 +5,6 @@ int main() {
   int n2 = 5;
   int res = n1 + n2;
 
-  printf("n1 + n2 = %d", res);
+  printf("n1 + n2 = %i", res);
   return 0;
 }
