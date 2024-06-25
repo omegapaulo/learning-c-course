@@ -17,3 +17,10 @@ All sentences ends with a semilon in C.
 
 **gcc**
 A compiler for the c files.
+
+**//**
+Comment, ignored by the compiler. Can use multiline comments
+
+**Escape sequences**
+Character combination consisting of backslash followed by a letter or combination of digits
+like: \t, \n, \r, etc.
