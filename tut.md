@@ -68,3 +68,74 @@ So, if a person learns C programming first, it will help him to learn any modern
 ##### C Identifiers
 
 ##### Keywords in C
+
+---
+
+The core concepts of the C programming language include:
+
+### 1. **Basic Syntax**
+
+- **Header Files**: Libraries included at the beginning of a program using `#include`.
+- **Main Function**: The starting point of a C program, `int main()`.
+- **Statements and Blocks**: Instructions ending with semicolons and grouped using `{}`.
+
+### 2. **Data Types and Variables**
+
+- **Primitive Data Types**: `int`, `char`, `float`, `double`, `void`.
+- **Modifiers**: `signed`, `unsigned`, `short`, `long`.
+- **Variables**: Named storage for data, defined with a type, e.g., `int a;`.
+
+### 3. **Operators**
+
+- **Arithmetic Operators**: `+`, `-`, `*`, `/`, `%`.
+- **Relational Operators**: `==`, `!=`, `>`, `<`, `>=`, `<=`.
+- **Logical Operators**: `&&`, `||`, `!`.
+- **Bitwise Operators**: `&`, `|`, `^`, `~`, `<<`, `>>`.
+
+### 4. **Control Structures**
+
+- **Conditional Statements**: `if`, `else if`, `else`, `switch`.
+- **Loops**: `for`, `while`, `do-while`.
+- **Jump Statements**: `break`, `continue`, `goto`, `return`.
+
+### 5. **Functions**
+
+- **Declaration and Definition**: Declaring return type, name, and parameters, e.g., `int add(int a, int b);`.
+- **Function Call**: Executing a function by its name and passing arguments.
+- **Recursion**: Functions calling themselves.
+
+### 6. **Arrays and Strings**
+
+- **Arrays**: Collection of elements of the same type, e.g., `int arr[10];`.
+- **Strings**: Array of characters ending with a null character `\0`.
+
+### 7. **Pointers**
+
+- **Pointer Variables**: Store memory addresses, e.g., `int *ptr;`.
+- **Pointer Arithmetic**: Operations on memory addresses.
+- **Pointer to Pointer**: Pointers storing addresses of other pointers.
+
+### 8. **Structures and Unions**
+
+- **Structures**: User-defined data types grouping different data types, e.g., `struct Person { char name[50]; int age; };`.
+- **Unions**: Similar to structures but share the same memory location.
+
+### 9. **Memory Management**
+
+- **Dynamic Allocation**: Using `malloc`, `calloc`, `realloc`, and `free` from `<stdlib.h>` for managing memory.
+- **Static Allocation**: Allocating memory at compile time.
+
+### 10. **File I/O**
+
+- **File Operations**: Opening, closing, reading, and writing files using `FILE` pointer and functions like `fopen`, `fclose`, `fprintf`, `fscanf`, etc.
+
+### 11. **Preprocessor Directives**
+
+- **Macros**: Define constants or functions using `#define`.
+- **Conditional Compilation**: `#ifdef`, `#ifndef`, `#endif`, `#if`, `#else`, `#elif`.
+
+### 12. **Standard Libraries**
+
+- **Common Libraries**: `<stdio.h>` for input/output, `<stdlib.h>` for general utilities, `<string.h>` for string operations, `<math.h>` for mathematics functions, etc.
+
+Understanding these core concepts is essential for proficiency in C programming, allowing you to develop efficient and effective programs.
