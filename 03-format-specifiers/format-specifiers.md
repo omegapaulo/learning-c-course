@@ -92,7 +92,7 @@ int main() {
     char string[] = "Hello, World!";
     long int linteger = 1234567890;
     long long int llinteger = 123456789012345;
-    unsigned long long int ullinteger = 123456789012345;
+    unsigned long long int ullinteger = 123456789012345U;
     int *pointer = &integer;
     bool trueOrFalse = true;
 

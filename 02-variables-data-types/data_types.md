@@ -5,15 +5,16 @@ In C programming, data types specify the type of data that a variable can hold. 
 ### Basic Data Types
 
 1. **Integer Types**:
+   **If you store more than the int can store it will overflow and reset to 0**
 
-   - **`int`**: Basic integer type.
-   - **`short`** or **`short int`**: Short integer type, typically 2 bytes.
+   - **`int`**: Basic integer type. 4 bytes Stores from (-2,147,483,648 to +2,147,483,647)
+   - **`unsigned int`**: 4 bytes (only non-negative integers), (0 to +4,294,967,295)
+   - **`short`** or **`short int`**: Short integer, 2 byte, stores from ( -32,768 to +32,767).
+   - **`unsigned short`**: Unsigned short integer type, 2 byte, stores from ( 0 to +65,535).
    - **`long`** or **`long int`**: Long integer type, typically 4 bytes.
-   - **`long long`** or **`long long int`**: Extended long integer type, typically 8 bytes.
-   - **`unsigned int`**: Unsigned integer type (can only represent non-negative integers).
-   - **`unsigned short`**: Unsigned short integer type.
-   - **`unsigned long`**: Unsigned long integer type.
-   - **`unsigned long long`**: Unsigned extended long integer type.
+   - **`unsigned long`**: Unsigned long integer type. 4 bytes
+   - **`long long`** or **`long long int`**: Extended long integer, typically 8 bytes.
+   - **`unsigned long long`**: Unsigned extended long integer type. 8 bytes
 
 2. **Floating-Point Types**:
 
