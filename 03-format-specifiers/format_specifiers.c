@@ -32,5 +32,18 @@ int main() {
   printf("Hexadecimal: %x\n", integer);
   printf("Octal: %o\n", integer);
 
+  // %.2 = decimal precision
+  // %1.2f = Minimal field width (spaces)
+  // %-2.2f = left align (spaces)
+
+
+  float item1 = 5.75;
+  float item2 = 10.00;
+  float item3 = 100.99;
+  printf("item 1 $%.2f\n", item1);
+  printf("item 2 $%2f\n", item2);
+  printf("item $%.2f\n", 3.14159);
+  printf("item 3 $%15.2f\n", item3);
+
   return 0;
 }
