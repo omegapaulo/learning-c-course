@@ -19,14 +19,16 @@ int main() {
   bool trueOrFalse = true;                  // 1 byte (true or false)
   // _Bool e = true;                         // 1 byte (true or false)
 
+  // constants
+  const float PI = 3.14159;
+  printf("PI: %f\n", PI);
+
 
 
 
   int age = 35;
   int n2 = 5;
   int res = age + n2;
-
-  printf("age + n2 = %d \n", res);
 
   printf("My name is %s and I\'m %d years old", string, age);
 
