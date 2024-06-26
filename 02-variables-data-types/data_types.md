@@ -17,20 +17,35 @@ In C programming, data types specify the type of data that a variable can hold. 
 
 2. **Floating-Point Types**:
 
-   - **`float`**: Single precision floating point, typically 4 bytes.
-   - **`double`**: Double precision floating point, typically 8 bytes.
+   - **`float`**: Single precision floating point, typically 4 bytes. Max 7 characters
+   - **`double`**: Double precision floating point, typically 8 bytes. Max 16 characters
    - **`long double`**: Extended precision floating point, typically 10, 12, or 16 bytes depending on the system.
 
 3. **Character Type**:
+
    - **`char`**: Single character, typically 1 byte.
-   - **`unsigned char`**: Unsigned character type.
-   - **`signed char`**: Signed character type.
+     We can also store whole integer in char from (-128 to +127) using ascii table we can display that number as a number or letter depending on the formater we use, %d or %c
+     ex:
+
+     ```c
+     char f = 100;
+
+     printf('%d\n' f)
+     # outputs: 100
+
+     printf('%c\n' f)
+     # outputs: d
+     ```
+
+   - **`unsigned char`**: Unsigned character type disregard any negative number, we store between (0 to +255), adding the key word unsigned double the range of number we can store in a variable.
+   - **`signed char`**: Signed character type. **Same as just char**
 
 ### Derived Data Types
 
 1. **Arrays**:
 
    - Collection of elements of the same type.
+   - Used for strings as well, because **C** does not have strings
 
    ```c
    int arr[10];
@@ -106,5 +121,13 @@ In C programming, data types specify the type of data that a variable can hold. 
 | `enum`               | User-defined type with named integer constants   |
 | `array`              | Collection of elements of the same type          |
 | `pointer`            | Stores memory address of another variable        |
+
+#### Boolean
+
+| Boolean |                      |
+| ------- | -------------------- |
+| `bool`  | Is `true` or `false` |
+
+To use boolean we must include the `#include <stdbool.h` on top of the file
 
 These data types are fundamental in C programming, enabling you to handle and manipulate different kinds of data efficiently.
