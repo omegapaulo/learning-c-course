@@ -1,24 +1,35 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
 
+  // Task 1: Personal Information Formatter
+  // Write a program that asks the user for their name, age, and height. Display the information in a formatted manner using appropriate format specifiers and escape sequences.
 
-  // Data types and variables        //* format specifiers
-  int age = 35;                    //* %d -- To insert integer
-  float gpa = 2.05;                // 4 bytes(32 bits of precision) 6-7 digits //* %f -- to insert a float//
-  double d = 3.1098765456789;      // 8 bytes(64 bits of precision) 15-16 digits  //* %lf -- to insert a double
-  char grade = 'c';                // single character //* %c -- To insert single character
-  char name[] = "Omega";           // array of characters (string)  //* %s -- To insert string of character
-  bool e = true;                   // 1 byte (true or false) //* %d
+/*
 
+  char name[20];
+  int age;
+  float height;
 
+  printf("Enter your name: ");
+  fgets(name, 20, stdin); // For multi-words input use fgets always.
+  name[strlen(name) - 1] = '\0';
+  printf("Enter your height: ");
+  scanf("%f", &height);
+  printf("Enter your age: ");
+  scanf("%d", &age);
 
+  printf("\nPersonal Information:\n");
+  printf("Name:\t %s\n", name);
+  printf("Age:\t %d\n", age);
+  printf("Height:\t %.1fcm", height);
+  // printf("My name is %s I'm %d years old, and I am %.2fcm tall", name, age, height);
 
-  int n2 = 5;
-  int res = age + n2;
+*/
 
-  printf("age + n2 = %d \n", res);
+// Task 2: Arithmetic Operations
+// Create a program that prompts the user to enter two integers.Perform addition, subtraction, multiplication, division, and modulus operations on these numbers and display the results.
 
-  printf("My name is %s and I\'m %d years old", name, age);
   return 0;
 }
