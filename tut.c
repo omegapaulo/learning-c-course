@@ -73,23 +73,25 @@ int main() {
   //* Task 4: Simple Interest Calculator
   // Create a program that calculates the simple interest.Ask the user to input the principal amount, rate of interest, and time period in years.
 
-  double principal, rate, interest, time;
-  char d[] = "%";
+  // double principal, rate, interest, time;
+  // char d[] = "%";
 
-  printf("Enter the principal: ");
-  scanf("%lf", &principal);
-  printf("Enter the rate: ");
-  scanf("%lf", &rate);
-  printf("Enter the time: ");
-  scanf("%lf", &time);
-  printf("\n");
+  // printf("Enter the principal: ");
+  // scanf("%lf", &principal);
+  // printf("Enter the rate: ");
+  // scanf("%lf", &rate);
+  // printf("Enter the time: ");
+  // scanf("%lf", &time);
+  // printf("\n");
 
-  interest = (principal * rate * time) / 100;
+  // interest = (principal * rate * time) / 100;
 
-  printf("principal: $%.2lf\n", principal);
-  printf("Rate: %.2lf%%\n", rate);
-  printf("Time: %.0lf years\n", time);
-  printf("Interest:  $%.2lf", interest);
+  // printf("principal: $%.2lf\n", principal);
+  // printf("Rate: %.2lf%%\n", rate);
+  // printf("Time: %.0lf years\n", time);
+  // printf("Interest:  $%.2lf", interest);
+
+
 
 
   return 0;
