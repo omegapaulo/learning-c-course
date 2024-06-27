@@ -58,16 +58,38 @@ int main() {
   //* Task 3: Temperature Converter
   // Write a program that converts a temperature from Fahrenheit to Celsius and Kelvin.Ask the user to input the temperature in Fahrenheit.
 
-  float fahr;
+  // float fahr;
 
-  printf("Enter a temp in fahrenheit:");
-  scanf("%f", &fahr);
+  // printf("Enter a temp in fahrenheit:");
+  // scanf("%f", &fahr);
 
-  float cels = (fahr - 32) * 5 / 9;
-  float kelv = cels + 273.15;
+  // float cels = (fahr - 32) * 5 / 9;
+  // float kelv = cels + 273.15;
 
-  printf("Temperature in Celsius: %.2f\n", cels);
-  printf("Temperature in Kelvin: %.2f", kelv);
+  // printf("Temperature in Celsius: %.2f\n", cels);
+  // printf("Temperature in Kelvin: %.2f", kelv);
+
+
+  //* Task 4: Simple Interest Calculator
+  // Create a program that calculates the simple interest.Ask the user to input the principal amount, rate of interest, and time period in years.
+
+  double principal, rate, interest, time;
+  char d[] = "%";
+
+  printf("Enter the principal: ");
+  scanf("%lf", &principal);
+  printf("Enter the rate: ");
+  scanf("%lf", &rate);
+  printf("Enter the time: ");
+  scanf("%lf", &time);
+  printf("\n");
+
+  interest = (principal * rate * time) / 100;
+
+  printf("principal: $%.2lf\n", principal);
+  printf("Rate: %.2lf%%\n", rate);
+  printf("Time: %.0lf years\n", time);
+  printf("Interest:  $%.2lf", interest);
 
 
   return 0;
