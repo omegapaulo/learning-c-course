@@ -29,11 +29,11 @@ Relational operators compare two values and return a boolean result.
 
 Logical operators perform logical operations.
 
-| Operator | Description | Example    |
-| -------- | ----------- | ---------- |
-| `&&`     | Logical AND | `a && b`   |
-| `\|\|`   | Logical OR  | `a \|\| b` |
-| `!`      | Logical NOT | `!a`       |
+| Operator | Description | Example    | Use scenario          |
+| -------- | ----------- | ---------- | --------------------- |
+| `&&`     | Logical AND | `a && b`   | Both must be true     |
+| `\|\|`   | Logical OR  | `a \|\| b` | One must be true      |
+| `!`      | Logical NOT | `!a`       | Reverse true or false |
 
 ### 4. **Bitwise Operators**
 

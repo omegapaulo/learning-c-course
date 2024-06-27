@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+// #include <ctype.h> // When using strings, lots of string functions are on this file
 
 int main() {
 
