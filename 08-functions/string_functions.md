@@ -14,6 +14,8 @@
 10. **strstr**: Find the first occurrence of a substring in a string.
 11. **strtok**: Tokenize a string (split it into parts).
 
+12. strlcat = Safe way  = Research it 
+
 ### Example Programs for Each Function
 
 #### 1. strlen
